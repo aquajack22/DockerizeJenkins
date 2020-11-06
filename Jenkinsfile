@@ -29,7 +29,7 @@ node {
     		newApp.push 'latest2'
         }
 	}
-    stage('Removing image') {
+    stage('Removing Image') {
         sh "docker rmi $registry:$BUILD_NUMBER"
         sh "docker rmi $registry:latest"
     }
