@@ -1,4 +1,4 @@
-# Preparing bower files (only have bower in dev ependencies)
+# Preparing bower files (only have bower in dev s ependencies)
 FROM node
 
 RUN mkdir /app
