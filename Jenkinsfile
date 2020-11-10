@@ -12,7 +12,7 @@ pipeline {
         git 'https://github.com/aquajack22/DockerizeJenkins.git'
       }
     }
-    stage('Build') {
+    stage('BUILD') {
        steps {
          sh 'npm install'
          sh 'npm run bowerInstall'
